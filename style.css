@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@charset "utf-8";
+
+
+body{
+    height: 100%;
+    margin: 0;
+    background-color: lightgray;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+html{
+    height: 100%;
+}
+
+/*
+.intro{
+    color: yellow;
+    border: 10px black dashed;
+    width: 40%;
+    height: 100px;
+
+}
+
+.all_right{
+    text-align: center;
+}*/
+
+.container{
+    height: 100%;
+}
+
+.sidebar{
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.main{
+    float: right;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+}
+
+.content{
+    padding: 50px 60px;
+}
+
+.sitename{
+    text-align: center;
+
+}
+
+.sitename a {
+    text-decoration: none;
+    color: black;
+}
+
+.sitename a:hover{
+    color: darkgray;
+    /*effekte einbauen!!*/
+}
+
+ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    border-bottom: 3px solid white;
+    padding-left: 30px;
+    line-height: 60px;
+}
+
+ul li:first-child{
+    border-top: 3px solid white;
+}
+
+ul li:hover{
+    background-color: lightgray;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.pic{
+    border:  15px inset antiquewhite;
+}
+
+.active{
+    background-color: burlywood;
+}
+
+.clock{
+    float: right;
+}
+
+td{
+    padding: 3%;
+}
+
+input[type="text"]{
+    width: 250px;
+    height: 20px;
+}
+
+td:nth-of-type(1){
+    width: 100px;
+    text-align: right;
+}
+
+textarea{
+    width: 250px;
+    font-family: 'Arial', sans-serif;
+}
+
+button{
+    border-radius: 5px;
+    border: grey 2px ;
+    width: 100px;
+    height: 25px;
+    background-color: antiquewhite;
+    color: black;
+    font-weight: 700;
+}
+
+.require{
+    color: red;
+}
+
+.Btn_LogIn{
+    padding-left: 2%;
+    padding-top: 7px;
+}
+
+.img_Contact{
+    float: right;
+    height: 80px;
+    width: 80px;
+}
+
+.kgMc{
+    padding-left: 5%;
+    color: red;
+    font-size: 12px;
+}
+
+.haeckchen{
+    width: 15px;
+    height: 15px;
+
+}
+

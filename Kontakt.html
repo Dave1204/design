@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+</head>
+<body>
+<div class="container">
+    <div class="sidebar">
+        <div class="sitename"> <a href="Index.html"><img src="Media/home.png" height="35" width="35"> </a></div>
+        <ul>
+            <li><a href="LogIn.html">LogIn</a></li>
+            <li><a href="Impressum.html">Über mich</a></li>
+            <li class="active"><a href="Kontakt.html">Kontakt</a> </li>
+            <li><a href="Testseite.html">Test</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="content">
+            <img class="img_Contact" src="Media/contact.png">
+            <h1>Kontaktformular</h1>
+
+            <form>
+                <table>
+                    <tr>
+                        <td><span class="require">*</span>Vorname</td>
+                        <td><input id="vn" type="text" placeholder="Max"></td>
+                    </tr>
+                    <tr>
+                        <td>Nachname</td>
+                        <td><input id="nn" type="text" placeholder="Mustermann"></td>
+                    </tr>
+
+                    <tr>
+                        <td><span class="require">*</span>E-Mail</td>
+                        <td><input id="mail" type="text" placeholder="max.mustermann@musterdomäne.at"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="kgMc" id="kgM"></td>
+                    </tr>
+                    <tr>
+                        <td><span class="require">*</span>Nachricht</td>
+                        <td><textarea id="nr" rows="6"> </textarea></td>
+                    </tr>
+                </table>
+            </form>
+            <br>
+            <button id="btn_send">senden</button>
+            &nbsp;&nbsp;<img class="haeckchen" src="Media/haeckchen.png" id="hackenErfolg" style="visibility: collapse">
+        </div>
+    </div>
+</div>
+
+<script src="logicKontakt.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
